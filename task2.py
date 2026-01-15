@@ -2,7 +2,7 @@ def main():
   color1 = "Green"
   color2 = "Pink"
   print(f"1) Use {color2} to roll a ball.")
-  choice1 = input("1, 2, or 3?")
+  choice1 = input("1, 2, or 3? ")
   if choice1 == "1":
     print("2) Make the ball flat.\n")
   elif choice1 == "2": # elif is a second check only if the first check fails.
